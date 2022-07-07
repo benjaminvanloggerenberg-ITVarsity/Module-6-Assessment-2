@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c3ece6;
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;      
+}
+
+p{
+   line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+/*===============================*/
+/* MENU                          */
+/*===============================*/
+
+#menu{
+    background: linear-gradient(#e6eaee, #5f3c3c);
+    height: 90px;  
+
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 90px;
+    color: white;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #46134b;
+}
+
+#menu i{
+    color: white;
+}
+
+#menu hover:i{
+    color: white;
+}
+
+/*===============================*/
+/* HEADER                        */
+/*===============================*/
+
+#header{
+    padding: 60px 0px 40px 0;
+    
+    text-align: center;
+    background: linear-gradient(#463636, #0e79c5);
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: white;
+}
+
+#header p{
+    letter-spacing:0.1em;
+    color: #ffffff;
+}
+
+/*===============================*/
+/* BANNER                        */
+/*===============================*/
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    height: 600px;
+    width: 70%;
+    padding-left: 220px;
+}
+
+/*===============================*/
+/* PAGE                          */
+/*===============================*/
+
+#page{
+    min-height: 400px;
+    padding:310px 20px 0px 20px;
+    margin-left: 10px;
+}
+
+#page h2{
+    margin-bottom: 13px;
+    
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    color: #086452;
+}
+
+/*===============================*/
+/* Content                       */
+/*===============================*/
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/* Sidebar */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/* Lists */
+
+ul.styled{
+   
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+ul.styled li{
+    border-top: solid 1px #d80d0d;
+    margin-left: 0px;
+    padding: 14px 0px; 
+    min-width: 170px;
+}
+
+.vl{
+  border-left: 2px solid #235666;
+  height: 360px;
+  float: left;
+  margin-left: 30px;    
+  width: 2%; 
+}
+
+/*===============================*/
+/* Featured table                */
+/*===============================*/
+
+
+
+#car-table{
+    color: #020c0a;
+    clear: both;
+    margin-left: 350px;
+    margin-bottom: 40px; 
+}
+
+#car-table h2{
+    padding-left: 210px;
+}
+
+table{   
+    
+    
+    border-collapse: collapse;
+    font-size: 100%;  
+    padding: 0;
+    box-shadow:2px 5px 15px 3px; 
+    
+}
+
+#car-table img{
+    width: 150px;
+    -moz-transition: -moz-transform 0.4s ease-in;
+	-webkit-transition: -webkit-transform 0.4s ease-in;
+	-o-transition: -o-transform 0.4s ease-in;
+}
+
+#car-table img:hover{ 
+    -moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+
+
+
+
+/*===============================*/
+/* Footer                        */
+/*===============================*/
+
+#footer{
+    width: 98,5%;
+    height: 350px;
+    background-color: #1e1b1a;
+    padding-top: 20px;
+    padding-left: 22px;
+    clear: both;
+    margin-left: 0px;
+}
+
+#footer h2{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/*===============================*/
+/* Copyright                     */
+/*===============================*/
+
+#copyright{
+    width: 100%;
+    height: 100px;
+    text-align:center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both;
+    
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0,1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*===============================*/
+/* Car-list                      */
+/*===============================*/
+
+.car-list-item{
+    border: 1px solid #25FFDC;
+    
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.car-list-item h1{
+    font-weight: bold;
+    font-size: 20p;
+    color: black;
+    
+}
+
+.car-list-item p{
+    font-size: 15px;
+    color: #233C38;
+    margin-top: 0p;
+    padding:-20px 10px 0px 10px;
+}
+
+.car-list-item img{
+    
+    padding-left: 10px;
+    height: 100px;
+}
+
+
+
+
+
